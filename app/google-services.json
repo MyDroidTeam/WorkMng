@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "158372689660",
+    "firebase_url": "https://workmng.firebaseio.com",
+    "project_id": "workmng",
+    "storage_bucket": "workmng.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158372689660:android:57d9fe0497c47429834979",
+        "android_client_info": {
+          "package_name": "com.mydroid.workmng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158372689660-4p7m0m7v2p16nddbr3ouvrl22q4r354q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mydroid.workmng",
+            "certificate_hash": "f9c1f2ae52d9b17fe816925b619b77498aea518d"
+          }
+        },
+        {
+          "client_id": "158372689660-a1uv8usu9mre71i4io8v7et802h1qqiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoioksAE8v-crldgT1liZ1q9ezhk56CCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158372689660-a1uv8usu9mre71i4io8v7et802h1qqiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
