@@ -8,6 +8,7 @@ import android.util.Log;
 
 import com.mydroid.workmng.BuildConfig;
 
+import io.realm.BuildConfig;
 import io.realm.Realm;
 import io.realm.log.LogLevel;
 import io.realm.log.RealmLog;

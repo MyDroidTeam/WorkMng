@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">WorkMng</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">practice_new_project</string>
+    <string name="ind_country_code">+ 91</string>
+    <string name="mob_num">1234567898</string>
 </resources>
