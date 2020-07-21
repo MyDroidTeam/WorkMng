@@ -3,12 +3,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".screens.auth.OtpVerificationFrag">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/phone_auth"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:text="Verify Phone Number"/>
+
+
+            <TextView
+                android:id="@+id/numberTv"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_text_shape"
+                android:drawableEnd="@drawable/ic_baseline_edit_24"
+                android:padding="10dp"
+                android:text="1234567890"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <com.poovam.pinedittextfield.CirclePinField
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                app:noOfFields="6"
+                android:textSize="30sp"
+                android:layout_marginTop="30dp"
+                android:textSelectHandle="@drawable/text_handle"
+                app:circleRadius="14dp"
+                app:fillerRadius="2dp"
+                app:fillerColor="#0C2421"
+                app:fieldBgColor="#fff"
+                android:id="@+id/circleField"/>
+
+            <Button
+                android:id="@+id/verify_btn"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:text="Verify"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
 </FrameLayout>
