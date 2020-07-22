@@ -8,14 +8,14 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:158372689660:android:57d9fe0497c47429834979",
+        "mobilesdk_app_id": "1:158372689660:android:7fa1094adeee69ca834979",
         "android_client_info": {
           "package_name": "com.mydroid.workmng"
         }
       },
       "oauth_client": [
         {
-          "client_id": "158372689660-4p7m0m7v2p16nddbr3ouvrl22q4r354q.apps.googleusercontent.com",
+          "client_id": "158372689660-o2n60e1vstf5bdrmrd6sas3h2je2p4sj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.mydroid.workmng",

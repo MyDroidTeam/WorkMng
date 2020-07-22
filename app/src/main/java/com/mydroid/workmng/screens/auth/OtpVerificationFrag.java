@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -98,6 +99,9 @@ public class OtpVerificationFrag extends Fragment {
                     public void onComplete(@NonNull Task<AuthResult> task) {
 
                         if (task.isSuccessful()){
+
+                            //MongoDb Realm User Creation part
+
 
                             startActivity(new Intent(getActivity(), HomeActivity.class));
 
